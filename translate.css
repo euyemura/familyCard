@@ -1,0 +1,69 @@
+div {
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+  margin: 200px;
+  /* transform: translate(100px, 100px); */
+}
+
+div:hover, div:focus{
+    transform: translate(-100px);
+    /* now on hover, we have a transform function
+    going on. focus is for mobile.   */
+}
+
+
+
+/****************************************** HOME */
+    .home-menu {
+        transform: translate(187px, -30px);
+    }
+    .home-menu a {
+    }
+
+    /****************************************** WINERIES */
+    .wineries-menu {
+        transform: translate(192px, -30px);
+    }
+        .wineries-menu a {
+    }
+
+    a.sf-with-ul {
+        padding-top: 0px !important;
+    }
+
+
+/********************************************** RIGHT SIDE OF LOGO */
+/****************************************** ABOUT */
+    .about-menu {
+        transform: translateY(-30px);
+    }
+    .about-menu a {
+
+    }
+/*** sub-menu up has different height from top parent element  */
+    .about-menu ul.sub-menu {
+    }
+/****************************************** CONTACT */
+    .contact-menu {
+        transform: translateY(-30px);
+    }
+    .contact-menu a {
+    }
+
+/****************************************** MEMBERS */
+    .members-menu {
+        transform: translateX(-154px);
+    }
+    .members-menu a {
+    }
+
+
+/****************************************** JOIN THE RVVA */
+    .jointhervva-menu {
+        transform: translateX(-154px);
+    }
+    .jointhervva-menu a {
+
+    }
